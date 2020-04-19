@@ -1,8 +1,59 @@
+
 * {
 	margin: 0;
 	padding: 0;
 }
 
-.picture {
-	no-repe
+@font-face {
+	font-family: Montesrrat;
+	src: url(fonts/Montserrat-Light.ttf);
+}
+
+a, p {
+	font-family: Montesrrat;
+}
+
+/*----------------------------Navbar-----------------------------------*/
+.navbar {
+	height: 70px;
+}
+
+.navbar_logo {
+	margin-top: 15px;
+}
+
+.picture, a {
+	font-size: 14px;
+	color: rgba(31, 32, 65, 0.5);
+	text-decoration: none;
+
+}
+
+.picture, li {
+	list-style-type: none;
+}
+
+/*----------------------------Content-----------------------------------*/
+/*----------------------------Footer-----------------------------------*/
+.footer {
+	background-color: red;
+	height: 372px;
+}
+
+
+
+.menu, a {
+	font-size: 12px;
+	color: black;
+	font-weight: bold;
+}
+
+#copytext {
+	margin: 23px 0px 23px 140px;
+}
+
+#social {
+	letter-spacing: 20px;
+	position: left;
+	margin: -45px 23px 0px 0px;
 }
